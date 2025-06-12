@@ -1,8 +1,12 @@
+![image](https://img.shields.io/badge/Solidity-e6e6e6?style=for-the-badge&logo=solidity&logoColor=black)
+![image](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
+
 # KipuBank
 
 Su tarea es recrear el smart contract KipuBank con funcionalidad completa y documentación como se describe a continuación.
 
-### Características de KipuBank:
+
+#### Características de KipuBank:
 
 - Los usuarios pueden depositar tokens nativos (ETH) en una bóveda personal
 - Los usuarios pueden retirar fondos de su bóveda, pero solo hasta un umbral fijo por transacción, representado por una variable immutable
@@ -12,7 +16,7 @@ Su tarea es recrear el smart contract KipuBank con funcionalidad completa y docu
 - El contrato debe llevar el registro del número de depósitos y retiros
 - El contrato debe tener al menos una función external, una private, y una view
 
-### Prácticas de Seguridad a Seguir:
+#### Prácticas de Seguridad a Seguir:
 
 - Usar errores personalizados en lugar de strings de require
 - Respetar el patrón checks-effects-interactions y convenciones de nomenclatura
